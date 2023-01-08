@@ -26,8 +26,7 @@ def _tensorflow_http_archive(ctx):
 
     strip_prefix = "tensorflow-%s" % git_commit
     urls = [
-        "https://mirror.bazel.build/github.com/tensorflow/tensorflow/archive/%s.tar.gz" % git_commit,
-        "https://github.com/tensorflow/tensorflow/archive/%s.tar.gz" % git_commit,
+        "https://github.com/jc-su/Tetris-tensorflow/archive/%s.tar.gz" % git_commit,
     ]
     ctx.download_and_extract(
         urls,
